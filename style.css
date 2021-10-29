@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+  background-image: url(img/bg.png);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  position: relative;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: black;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: black;
+  color: white;
+}
+.center .btns button:last-child{
+  background: black;
+  color: white;
+}
+table{
+  position: relative;
+  width: 100%;
+  top: 120px;
+  font-size: 14px;
+  vertical-align: middle;
+  border-color: white;
+}
+.tabel tr{
+  height: 10px;
+}
+table tr .tengah {
+  text-align: center;
+}
+table tr th{
+  background-color: #1b1b1b;
+  color: white;
+}
+table tr td{
+  color: black;
+}
+table tr td .ubah{
+  color: green;
+  text-decoration: none;
+}
+table tr td .hapus{
+  color: red;
+  text-decoration: none;
+}
+.tambah a{
+  display: grid;
+  position: relative;
+  top: 120px;
+  height: 32px;
+  width: 210px;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid black;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.tambah a:first-child{
+  color: black;
+  background: none;
+}
+.tambah a:first-child:hover{
+  background: black;
+  color: white;
+}
+.tambah a:last-child{
+  background: none;
+  color: black;
+}
+.cari{
+  display: grid;
+  float: right;
+}
+.cari form{
+  position: relative;
+  top: 90px;
+}
+.cari form input, button{
+  border-radius: 5px;
+}
+.cari form button{
+  width: 50px;
+}
+.cari form button:hover{
+  background: #6495ED;
+  color: white;
+}
+.form{
+  position: relative;
+  top: 80px;
+  width: 75%;
+  margin: auto;
+}
+.form form ul li{
+  list-style-type: none;
+}
+ul li label{
+  display: block;
+}
+ul li input{
+  width: 100%;
+  height: 30px; 
+  border-radius: 7px;
+  padding: 0 8px;
+}
+ul li .tambah{
+  position: relative;
+  left: 44%;
+  height: 35px;
+  width: 120px;
+  border-radius: 7px;
+  background: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+ul li .tambah:hover{
+  background: #808000;
+  color: white;
+}
+ul li .back{
+  position: relative;
+  top: 20px;
+  left: 44.79%;
+  height: 30px;
+  border: 2px solid black;
+  padding: 0 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+ul li .back:hover{
+  background: #FF4500;
+  color: white;
+}
+.kotak{
+  width: 50%;
+  background: #CD853F;
+}
